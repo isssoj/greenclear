@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f0ff; 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003300; /* Couleur verte pour l'en-tête */
+  padding: 10px;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tabs {
+  background-color: #006600; /* Couleur verte pour les onglets */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tab-button {
+  background-color: #6699cc; 
+  color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.tab-content h2 {
+  color: #003300; /* Couleur foncée pour le texte des onglets */
+}
